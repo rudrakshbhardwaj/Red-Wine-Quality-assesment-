@@ -1,0 +1,4 @@
+# Red-Wine-Quality-assesment-
+This machine learning model provides the user with an assessment about the quality of the wine . The ratings are from 1-10 but we simplified them by creating a new target variable
+called VERDICT which takes Good[1] if the quality of the wine is >5 and bad[0] for else case. The model is built using a binomial logistic regression algorithm.
+Almost every predictor was used to create our model except those which had a multicollinarity greater than 5. This makes our model accuracy of 75% fairly accurate and improved.
